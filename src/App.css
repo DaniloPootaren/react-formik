@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  height: 500px;
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+  margin-right: auto;
+  margin-left:auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input{
+  height: 4em;
+  border-radius: 5px;
+}
+
+.submit-button{
+  background-color: #282c34;
+  color:#fff
+}
+
+.invalid {
+  border: 1px solid red
+}
+
+
+

@@ -1,11 +1,14 @@
-import logo from "./logo.svg";
+import React from "react";
+import WithoutFormik from "./components/WithoutFormik";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <h1>Introdution to Formik 🚀 🤟 💪 </h1>
+      <div className="App-container">
+        <Header />
+        <WithoutFormik />
       </div>
     </div>
   );
