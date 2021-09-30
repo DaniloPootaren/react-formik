@@ -1,5 +1,5 @@
 import React from "react";
-import WithoutFormik from "./components/WithoutFormik";
+import WithFormik from "./components/WithFormik";
 import Header from "./components/Header";
 import "./App.css";
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="App-container">
         <Header />
-        <WithoutFormik />
+        <WithFormik />
       </div>
     </div>
   );

@@ -63,7 +63,6 @@ function WithoutFormik(props) {
       <input
         className={firstnameError && "invalid"}
         type="text"
-        id="fname"
         name="firstname"
         placeholder="Firstname"
         value={firstname}
@@ -72,7 +71,6 @@ function WithoutFormik(props) {
       <input
         className={lastnameError && "invalid"}
         type="text"
-        id="lname"
         name="lastname"
         placeholder="Lastname"
         value={lastname}
@@ -81,7 +79,6 @@ function WithoutFormik(props) {
       <input
         className={emailError && "invalid"}
         type="text"
-        id="lname"
         name="email"
         placeholder="Email"
         onChange={handleChange}
@@ -90,7 +87,6 @@ function WithoutFormik(props) {
       <input
         className={ageError && "invalid"}
         type="text"
-        id="lname"
         name="age"
         placeholder="Age"
         value={age}
@@ -99,7 +95,6 @@ function WithoutFormik(props) {
       <input
         className={addressError && "invalid"}
         type="text"
-        id="lname"
         name="address"
         placeholder="Address"
         value={address}
